@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Super Mario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon3.png">
+    
+</head>
+<body>
+    <div class="game-board">
+        <img src="./clouds.png" class="clounds">
+        <img src="./pipe.png" class="pipe">
+        <img src="./mario.gif" class="mario">
+    </div>
+
+    <div class="score-container">
+        <h1>Pontuação: <span id="score">0</span></h1>
+    </div>
+
+    <div id="tela-inicial">
+        <span>Pressione qualquer tecla para iniciar</span>
+      </div>
+    
+      <div id="game-over-container" class="hidden">
+        <div id="game-over-text" class="hidden">Game Over</div>
+      </div>
+
+</body>
+<script src="script.js"></script>
+</html>
